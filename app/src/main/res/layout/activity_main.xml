@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1B1B"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/calView"
+        android:layout_width="300dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="132dp"
+        android:background="@color/colorViewPort"
+        android:text="@string/calViewTxt"
+        android:textAlignment="textEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/historyView"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <Button
+        android:id="@+id/btnDeci"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/btnDeci"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/num0Btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/num1Btn" />
+
+    <Button
+        android:id="@+id/btnEqual"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/btnEqual"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnAdd"
+        app:layout_constraintTop_toBottomOf="@+id/num3Btn" />
+
+    <Button
+        android:id="@+id/num0Btn"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/num0Txt"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnEqual"
+        app:layout_constraintTop_toBottomOf="@+id/num2Btn" />
+
+    <Button
+        android:id="@+id/num1Btn"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/num1Txt"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/num2Btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/num4Btn" />
+
+    <Button
+        android:id="@+id/num3Btn"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/num3Txt"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnAdd"
+        app:layout_constraintTop_toBottomOf="@+id/num6Btn" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="60dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/btnAdd"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSub" />
+
+    <Button
+        android:id="@+id/num2Btn"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/num2Txt"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/num3Btn"
+        app:layout_constraintTop_toBottomOf="@+id/num5Btn" />
+
+    <Button
+        android:id="@+id/num4Btn"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/num4Txt"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/num5Btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/num7Btn" />
+
+    <Button
+        android:id="@+id/num6Btn"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/num6Txt"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnSub"
+        app:layout_constraintTop_toBottomOf="@+id/num9Btn" />
+
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/btnSub"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMulti" />
+
+    <Button
+        android:id="@+id/num5Btn"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/num5Txt"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/num6Btn"
+        app:layout_constraintTop_toBottomOf="@+id/num8Btn" />
+
+    <Button
+        android:id="@+id/num7Btn"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/num7Txt"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/num8Btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnClear" />
+
+    <Button
+        android:id="@+id/num9Btn"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/num9Txt"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnMulti"
+        app:layout_constraintTop_toBottomOf="@+id/btnPrecent" />
+
+    <Button
+        android:id="@+id/btnMulti"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/btnMulti"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDiv" />
+
+    <Button
+        android:id="@+id/num8Btn"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/num8Txt"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/num9Btn"
+        app:layout_constraintTop_toBottomOf="@+id/btnBackspace" />
+
+    <TextView
+        android:id="@+id/historyView"
+        android:layout_width="297dp"
+        android:layout_height="142dp"
+        android:background="@color/colorViewPort"
+        android:text="@string/historyViewTxt"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <Button
+        android:id="@+id/btnDiv"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/btnDiv"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/historyView" />
+
+    <Button
+        android:id="@+id/btnBackspace"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/btnBackspaceT"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnPrecent"
+        app:layout_constraintTop_toBottomOf="@+id/historyView" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/btnClearTxt"
+        app:layout_constraintEnd_toStartOf="@+id/btnBackspace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/historyView"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnPrecent"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/btnPrecent"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnDiv"
+        app:layout_constraintTop_toBottomOf="@+id/historyView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
