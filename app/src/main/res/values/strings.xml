@@ -1,26 +1,25 @@
 <resources>
     <string name="app_name">Calculator</string>
-    <string name="num0Txt">0</string>
-    <string name="num1Txt">1</string>
-    <string name="num2Txt">2</string>
-    <string name="num3Txt">3</string>
-    <string name="num4Txt">4</string>
-    <string name="num5Txt">5</string>
-    <string name="num6Txt">6</string>
-    <string name="num7Txt">7</string>
-    <string name="num8Txt">8</string>
-    <string name="num9Txt">9</string>
-    <string name="btnClearTxt">C</string>
-    <string name="btnAllClearTxt">AC</string>
+    <string name="num0Txt">"0"</string>
+    <string name="num1Txt">"1"</string>
+    <string name="num2Txt">"2"</string>
+    <string name="num3Txt">"3"</string>
+    <string name="num4Txt">"4"</string>
+    <string name="num5Txt">"5"</string>
+    <string name="num6Txt">"6"</string>
+    <string name="num7Txt">"7"</string>
+    <string name="num8Txt">"8"</string>
+    <string name="num9Txt">"9"</string>
+    <string name="btnClearTxt">"C"</string>
+    <string name="btnAllClearTxt">"AC"</string>
     <string name="btnBackspaceT">\u232b</string>
-    <string name="btnPrecent">%</string>
     <string name="btnDiv">\u00f7</string>
-    <string name="btnMulti">x</string>
-    <string name="btnSub">-</string>
-    <string name="btnAdd">+</string>
-    <string name="btnEqual">=</string>
-    <string name="btnDeci">.</string>
-    <string name="historyViewTxt">History</string>
-    <string name="calViewTxt"></string>
+    <string name="btnMulti">"x"</string>
+    <string name="btnSub">"-"</string>
+    <string name="btnAdd">"+"</string>
+    <string name="btnEqual">"="</string>
+    <string name="btnDeci">"."</string>
+    <string name="historyViewTxt">"0"</string>
+    <string name="calViewTxt">"0"</string>
 
 </resources>
